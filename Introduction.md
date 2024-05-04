@@ -1,1 +1,1 @@
-
+Adventure Works, a fictitious company, maintains a comprehensive database reflecting its operations. To harness insights from this data and facilitate informed decision-making, an Extract, Transform, Load (ETL) pipeline is essential. The project aims to construct a robust ETL pipeline leveraging Azure services for data transformation, storage, and visualization.
