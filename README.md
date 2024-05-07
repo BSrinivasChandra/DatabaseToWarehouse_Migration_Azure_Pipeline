@@ -3,7 +3,7 @@
 The primary goal is to design and implement a scalable ETL pipeline that extracts data from an on-premise SQL Server database representing Adventure Works, transforms it into a suitable format for analysis, and loads it into Azure Synapse Analytics Warehouse for further processing and visualization.
 
 ## Azure Services Used:
-1. Azure Strorage Account:
+1. Azure Data Lake Gen2:
 2. Azure Data Factory:
 3. Azure Databricks:
 4. Azure Synapse Analystics:
@@ -28,16 +28,10 @@ The primary goal is to design and implement a scalable ETL pipeline that extract
 </p>
 
 **EXTRACTION:**
-  - In the extraction phase we have Azure Data Factory (ADF) copying the data into an Azure
-  Storage which could be an Azure Data Lake or Azure Blob Storage. Here we have Azure
-  Datalake Gen2.  
-  - We land the data in storage because of the future possibilities of combining and enriching the
-  data with unstructured/semi-structured data from other sources. Since the daily incremental
-  changes would be maintained in the Azure Storage the data lends itself to historical analysis
-  as well.  
-  - Even though Azure Databricks could hit the SQL Server database via JDBC directly, we’re
-  not doing it because we want to leverage the power of Databricks for transformation and not
-  extraction.  
+  - In the extraction phase we have Azure Data Factory (ADF) copying the tables of SalesLT schema from On-premise Sql Server into an Azure
+  Storage which could be an Azure Data Lake or Azure Blob Storage. Here we have Azure Datalake Gen2.  
+  - Even though Azure Databricks could hit the SQL Server database directly, we’re not doing it because we want to leverage the power of Databricks for
+  transformation and not extraction.  
 
 **TRANSFORMATION:**
   - In the transform phase we have Databricks loading the file from a mount point into a dataframe,
@@ -56,11 +50,8 @@ The primary goal is to design and implement a scalable ETL pipeline that extract
   conformity checks, etc.  
 
 **LOAD & VISUALIZATION:**
-  - In this phase Transformed data from gold layer gets loaded onto Azure Syanpse Analytics
-  Data Warehouse available in corresponding work space to leverage the analytical performance.  
-  - PowerBI a powerful visualization tool is connected to data warehouse in Azure Synapse.  
-  Analytics data warehouse which was created earlier to directly query the data and to create
-  responsive as well as interactive reports.
+  - In this phase Transformed data from gold layer gets loaded onto Azure Syanpse Analytics Lakehouse as *Views* for further analysis. 
+  - PowerBI a powerful visualization tool can be connected Azure Synapse Analytics data warehouse which was created earlier to directly query the data and to create responsive as well as interactive reports.
 
 
 
