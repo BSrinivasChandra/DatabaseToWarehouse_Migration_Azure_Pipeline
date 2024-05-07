@@ -1,2 +1,2 @@
-## [Project Architecture:] (docs/Architecture.md)
+[Project Architecture:] (docs/Architecture.md)
 
