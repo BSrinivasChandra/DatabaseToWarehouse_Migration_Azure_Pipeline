@@ -10,6 +10,7 @@ The primary goal is to design and implement a scalable ETL pipeline that extract
 5. Azure Key Vault:
 
 ## Project Components:
+![etl_image]()
 - **Data Extraction:** Extracting data from the on-premise SQL Server database. The data includes only the tables with *SalesLT* schema.  
 - **Data Transformation:**  Performing data cleansing, and Implementing transformations to convert raw data into formats suitable for analytical processing using pyspark in Azure Databricks.  
 - **Data Loading:** Loading transformed data into Azure Syanapse Warehouse as *Views* to analyze and extract insights and generate reports, visualizations down the line.
