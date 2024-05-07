@@ -28,7 +28,7 @@ The primary goal is to design and implement a scalable ETL pipeline that extract
 </p>
 
 **EXTRACTION:**
-  - In the extraction phase we have Azure Data Factory (ADF) copying the tables of SalesLT schema from On-premise Sql Server into an Azure
+  - In the extraction phase we have Azure Data Factory (ADF) copying the tables of *SalesLT* schema from On-premise Sql Server into an Azure
   Storage which could be an Azure Data Lake or Azure Blob Storage. Here we have Azure Datalake Gen2.  
   - Even though Azure Databricks could hit the SQL Server database directly, we’re not doing it because we want to leverage the power of Databricks for
   transformation and not extraction.  
