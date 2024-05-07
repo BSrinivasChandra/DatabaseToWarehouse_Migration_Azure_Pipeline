@@ -13,9 +13,12 @@ The primary goal is to design and implement a scalable ETL pipeline that extract
 <p align='center'>
   <img src="images/etl-process-image.png">
 </p>
-- **Data Extraction:** Extracting data from the on-premise SQL Server database. The data includes only the tables with *SalesLT* schema.  
+
+- **Data Extraction:** Source Database (On-Premise SQL Server): Data is extracted from the existing AdventureWorks database hosted on an on-premise SQL Server. The data includes only the tables with *SalesLT* schema.  
 - **Data Transformation:**  Performing data cleansing, and Implementing transformations to convert raw data into formats suitable for analytical processing using pyspark in Azure Databricks.  
-- **Data Loading:** Loading transformed data into Azure Syanapse Warehouse as *Views* to analyze and extract insights and generate reports, visualizations down the line.
+- **Data Loading:** Azure Data Lake Storage: Transformed data is loaded into Azure Data Lake Storage for secure and scalable storage.  
+Azure Synapse Data Lakehouse: Alternatively, the transformed data can be stored in Azure
+Synapse Data Lakehouse as *Views* to analyze and extract insights and generate reports, visualizations down the line.
 
 ## Project Architecture:
 
