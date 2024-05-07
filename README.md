@@ -1,4 +1,6 @@
 # Database_Migration: Azure_ETL_Pipeline
+
+**[Aim](#Aim)**
 ## Aim:
 The primary goal is to design and implement a scalable ETL pipeline that extracts data from an on-premise SQL Server database representing Adventure Works, transforms it into a suitable format for analysis, and loads it into Azure Synapse Analytics Warehouse for further processing and visualization.
 
