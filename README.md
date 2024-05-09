@@ -1,7 +1,9 @@
 # Database_Migration: Azure_ETL_Pipeline
 
 1. **[Aim](#Aim)**
-2. **[Azure Services](#Azure-Services-Used)
+2. **[Azure Services](#Azure-Services-Used)**
+3. **[Project Components](#Project-Components)**
+4. **[Project Architecture](#Project-Architecture)**
 ## Aim:
 The primary goal is to design and implement a scalable ETL pipeline that extracts data from an on-premise SQL Server database representing Adventure Works, transforms it into a suitable format for analysis, and loads it into Azure Synapse Analytics Warehouse for further processing and visualization.
 
@@ -30,13 +32,13 @@ The primary goal is to design and implement a scalable ETL pipeline that extract
   <img src="images/Etl_Architecture.png">
 </p>
 
-**EXTRACTION:**
+- **EXTRACTION:**
   - In the extraction phase we have Azure Data Factory (ADF) copying the tables of *SalesLT* schema from On-premise Sql Server into an Azure
   Storage which could be an Azure Data Lake or Azure Blob Storage. Here we have Azure Datalake Gen2.  
   - Even though Azure Databricks could hit the SQL Server database directly, we’re not doing it because we want to leverage the power of Databricks for
   transformation and not extraction.  
 
-**TRANSFORMATION:**
+- **TRANSFORMATION:**
   - In the transform phase we have Databricks loading the file from a mount point into a dataframe,
   performing transformations and finally writing to a delta store. The following are some of
   highlights of the work done.  
@@ -52,7 +54,7 @@ The primary goal is to design and implement a scalable ETL pipeline that extract
   tasks. Number of other things could also be implemented at this stage like business rules,
   conformity checks, etc.  
 
-**LOAD & VISUALIZATION:**
+- **LOAD & VISUALIZATION:**
   - In this phase Transformed data from gold layer gets loaded onto Azure Syanpse Analytics Lakehouse as *Views* for further analysis. 
   - PowerBI a powerful visualization tool can be connected Azure Synapse Analytics data warehouse which was created earlier to directly query the data and to create responsive as well as interactive reports.
 
