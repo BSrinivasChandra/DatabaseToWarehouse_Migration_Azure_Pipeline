@@ -10,7 +10,7 @@
 </p>
 <p align='center'>ER Diagram of Adventure Works Database</p>
 
-##Data Dictionary:
+## Data Dictionary:
 1. **SalesLT.Address** - This table contains information geographic location, demographic information such as AddressID, City, Region.
 2. **SalesLT.Customer** - This table contains information about customers, including customer ID, name, PhoneNo.
 3. **SalesLT.CustomerAddress** - It contains Customers Address with CustomerID, AddressID.
