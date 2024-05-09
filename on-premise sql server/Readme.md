@@ -3,7 +3,7 @@
 <p align= 'center'>
   <img src='AdventureWorks_Db_SQLServer.png'>
 </p>
-<p align='center'>Adventure Works Databse (SSMS)</p><br>
+<p align='center'>Adventure Works Databse (SSMS)</p></br>
 
 <p align= 'center'>
   <img src='AdventureWorksDb_DataModel.png'>
