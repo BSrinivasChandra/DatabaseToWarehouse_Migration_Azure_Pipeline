@@ -58,5 +58,9 @@ The primary goal is to design and implement a scalable ETL pipeline that extract
   - In this phase Transformed data from gold layer gets loaded onto Azure Syanpse Analytics Lakehouse as *Views* for further analysis. 
   - PowerBI a powerful visualization tool can be connected Azure Synapse Analytics data warehouse which was created earlier to directly query the data and to create responsive as well as interactive reports.
 
+<p align='center'>
+  <img src="images/ResourceGroup_WithResources.png">
+</p>
+<p align = 'center'>Resouce Group containing all the Resources.</p>
 
 
