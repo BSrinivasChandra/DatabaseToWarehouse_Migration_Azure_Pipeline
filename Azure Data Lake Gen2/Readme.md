@@ -1,6 +1,6 @@
 ## ADLS Gen2
 <p align = 'center'>
-</img src='BSG_Containers_Creation.png'>
+<img src='BSG_Containers_Creation.png'>
 </p>
 
 As this project follows **Medallian Architecture**, Initailly three containers named *broze*, *silver*, *gold* have been created and their significance is mentioned below.
