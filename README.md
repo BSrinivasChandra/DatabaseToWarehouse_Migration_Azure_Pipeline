@@ -59,7 +59,7 @@ The primary goal is to design and implement a scalable ETL pipeline that extract
   - PowerBI a powerful visualization tool can be connected Azure Synapse Analytics data warehouse which was created earlier to directly query the data and to create responsive as well as interactive reports.
 
 <p align='center'>
-  <img src="images/ResourceGroup_WithResources.png">
+  <img src="ResourceGroup_WithResources.png">
 </p>
 <p align = 'center'>Resouce Group containing all the Resources.</p>
 
