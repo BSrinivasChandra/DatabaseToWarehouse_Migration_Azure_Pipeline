@@ -1,5 +1,5 @@
 ## ADLS Gen2
-<p allign = 'center'>
+<p align = 'center'>
 </img src='BSG_Containers_Creation.png'>
 </p>
 
