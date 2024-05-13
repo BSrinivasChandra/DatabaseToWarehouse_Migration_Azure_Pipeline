@@ -57,6 +57,6 @@
 </p>
 
 4. **NOTEBOOK ACTIVITY(LEVEL2):**
-5. <p align='center'>
+<p align='center'>
   <img src='Notebook Activity/SilverToGold_Level2_Trasnformation_Notebook.png'>
 </p>
