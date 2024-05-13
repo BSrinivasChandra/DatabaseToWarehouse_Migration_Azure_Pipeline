@@ -14,7 +14,7 @@ The pipeline mainly consists of four types of activities:
   <img height =  200, src='ADF_ETL_FinalPipleline.png'>
 </p>
 
-<p align = 'center'><b>FINAL PIPELINE</b></p>
+<p align = 'center'><i>FINAL PIPELINE</i></p>
 
 <p align='center'>
   <img height =  250, src='LinkedServices.png'>
