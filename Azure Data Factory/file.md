@@ -2,7 +2,7 @@
 
 
 <p align='center'>
-  <img width =  100, src='ADF_ETL_FinalPipleline.png'>
+  <img height =  100, src='ADF_ETL_FinalPipleline.png'>
 </p>
 <p align='center'>
   <img src='LinkedServices.png'>
