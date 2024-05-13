@@ -1,9 +1,9 @@
 <p align='center'>
-  <img width = '20cm', src='LookUp Activity/Lookup_Setiitngs.png'>
+  <img width = '150px', src='LookUp Activity/Lookup_Setiitngs.png'>
 </p>
 <p align='center'>
-  <img width = '20cm', src='LookUp Activity/SQLQuery_SaleasLT_Tables.png'>
+  <img width = '150px', src='LookUp Activity/SQLQuery_SaleasLT_Tables.png'>
 </p>
 <p align='center'>
-  <img width = '20cm', src='LookUp Activity/LookUp_Activity_Dataset.png'>
+  <img width = '150px', src='LookUp Activity/LookUp_Activity_Dataset.png'>
 </p>
