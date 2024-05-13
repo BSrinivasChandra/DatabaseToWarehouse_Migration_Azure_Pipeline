@@ -18,10 +18,12 @@
 </p>
 
 ```sql 
-SELECT * FROM tables;
+SELECT s.schema, t.table FROM sys.tables as t
+INNER JOIN sys.schemas as s
+WHERE s.schemaid = t.schemaid;
 ```
 <p align='center'>
-  <img height =  400, src='LookUp Activity/LookUp_Activity_Dataset.png'>
+  <img height =  300, src='LookUp Activity/LookUp_Activity_Dataset.png'>
 </p>
 
 2. **FOR-EACH ACTIVITY:**
