@@ -28,7 +28,7 @@
   <img src='ForEach Activity/ForEach_Expression.png'>
 </p>
 
--- ### COPY ACTIVITY:
+_ ### COPY ACTIVITY:
 <p align='center'>
   <img src='ForEach Activity/ForEach_CopyActivity_Source.png'>
 </p>
