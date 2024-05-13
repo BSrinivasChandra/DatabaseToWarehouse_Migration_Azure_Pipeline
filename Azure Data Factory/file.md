@@ -2,7 +2,7 @@
 
 The main task of this pipeline is to extract all the tables with 'SalesLT' schema from Adventure Work database residing in an onpremise sql server and load into Bronze container of Azure Data Lake Gen2(ADLS) which then is transformed recursively according to Level-1 & Level-2 transformation and loaded them into corresponding silver & gold container in ADLS.  
   
-The pipeline mainly consists of four activities:
+The pipeline mainly consists of four types of activities:
 1. **LookUp Activity** : _Lookup_ Activity can be used to dynamically determine which “Objects” to operate instead of hardcoding the “Object” name. Some “Object” examples are - *_Files_* and *_Tables_*. It returns a dictonary with keys 'count' and 'value'.
 
 >Note : LookUp activity is mainly used when there are multiple files or tables to deal with in one go.
@@ -14,11 +14,12 @@ The pipeline mainly consists of four activities:
   <img height =  200, src='ADF_ETL_FinalPipleline.png'>
 </p>
 
-<p align = 'center'><b>FINAL ADF PIPELINE</b></p>
+<p align = 'center'><b>FINAL PIPELINE</b></p>
 
 <p align='center'>
   <img height =  250, src='LinkedServices.png'>
 </p>
+<p align = 'center'><b>LINKED SERCVICES</b></p>
     
 1. **LOOKUP ACTIVITY:**
 
