@@ -5,7 +5,7 @@
   <img height =  200, src='ADF_ETL_FinalPipleline.png'>
 </p>
 
-<p align = 'center'><b><i>FINAL ADF PIPELINE</i></b></p>
+<p align = 'center'><b>FINAL ADF PIPELINE</b></p>
 
 <p align='center'>
   <img height =  250, src='LinkedServices.png'>
