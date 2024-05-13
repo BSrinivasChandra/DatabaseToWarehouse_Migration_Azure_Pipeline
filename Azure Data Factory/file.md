@@ -12,9 +12,10 @@ The pipeline mainly consists of four types of activities:
 4. **Notebook Activity** : The Notebook activity in ADF pipeline allows you to run Notebook created in Azure Databricks.
 <p align='center'>
   <img height =  200, src='ADF_ETL_FinalPipleline.png'>
+  <em><i>Final Pipeline</i></em>
 </p>
 
-<p align = 'center'><i>Final Pipeline</i></p>
+<p align = 'center'></p>
 
 <p align='center'>
   <img height =  250, src='LinkedServices.png'>
