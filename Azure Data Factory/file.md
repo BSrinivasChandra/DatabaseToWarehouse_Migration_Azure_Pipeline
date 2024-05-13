@@ -5,7 +5,7 @@
   <img height =  200, src='ADF_ETL_FinalPipleline.png'>
 </p>
 <p align='center'>
-  <img height =  200, src='LinkedServices.png'>
+  <img height =  250, src='LinkedServices.png'>
 </p>
     
 1. **LOOKUP ACTIVITY:**
