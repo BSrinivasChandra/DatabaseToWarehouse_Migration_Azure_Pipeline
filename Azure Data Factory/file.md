@@ -5,7 +5,7 @@ The main task of this pipeline is to extract all the tables with 'SalesLT' schem
 The pipeline mainly consists of four activities:
 1. **LookUp Activity** : _Lookup_ Activity can be used to dynamically determine which “Objects” to operate instead of hardcoding the “Object” name. Some “Object” examples are - *_Files_* and *_Tables_*. It returns a dictonary with keys 'count' and 'value'.
 
->LookUp activity is used when there are multiple files or tables to deal with.
+>Note : LookUp activity is mainly used when there are multiple files or tables to deal with in one go.
 
 2. **ForEach Activity** : _ForEach_ activity is used to iterate over a collection and executes specified activities in a loop.
 3. **Copy Activity** : 
