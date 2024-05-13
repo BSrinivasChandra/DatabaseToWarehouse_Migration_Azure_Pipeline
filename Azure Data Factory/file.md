@@ -8,7 +8,7 @@
   <img src='LinkedServices.png'>
 </p>
     
-- ## LOOKUP ACTIVITY:
+1. ## LOOKUP ACTIVITY:
 
 <p align='center'>
   <img src='LookUp Activity/Lookup_Setiitngs.png'>
@@ -20,7 +20,7 @@
   <img src='LookUp Activity/LookUp_Activity_Dataset.png'>
 </p>
 
-- ## FOR-EACH ACTIVITY:
+2. ## FOR-EACH ACTIVITY:
 <p align='center'>
   <img src='ForEach Activity/ForEach_Settings.png'>
 </p>
@@ -28,7 +28,7 @@
   <img src='ForEach Activity/ForEach_Expression.png'>
 </p>
 
-_ ### COPY ACTIVITY:
+- **COPY ACTIVITY:**
 <p align='center'>
   <img src='ForEach Activity/ForEach_CopyActivity_Source.png'>
 </p>
@@ -49,4 +49,14 @@ _ ### COPY ACTIVITY:
 </p>
 <p align='center'>
   <img src='ForEach Activity/ForEach_CopyActivity_Sink_FolderExpression.png'>
+</p>
+
+3. ## NOTEBOOK ACTIVITY(LEVEL1):
+<p align='center'>
+  <img src='Notebook Activity/BronzeToSilver_Level1_TrasformationNotebook.png'>
+</p>
+
+4. ## NOTEBOOK ACTIVITY(LEVEL2):
+5. <p align='center'>
+  <img src='Notebook Activity/SilverToGold_Level2_Trasnformation_Notebook.png'>
 </p>
