@@ -22,10 +22,31 @@
 
 ## FOR-EACH ACTIVITY:
 <p align='center'>
-  <img src='ForEach Activity/LookUp Activity/ForEach_Settings.png'>
+  <img src='ForEach Activity/ForEach_Settings.png'>
 </p>
 <p align='center'>
   <img src='ForEach Activity/ForEach_Expression.png'>
 </p>
 
 ### COPY ACTIVITY:
+<p align='center'>
+  <img src='ForEach Activity/ForEach_CopyActivity_Source.png'>
+</p>
+<p align='center'>
+  <img src='ForEach Activity/ForEach_CopyActivity_Source_Expression.png'>
+</p>
+<p align='center'>
+  <img src='ForEach Activity/ForEach_CopyActivity_Source_Dataset.png'>
+</p>
+<p align='center'>
+  <img src='ForEach Activity/ForEach_CopyActivty_Sink.png'>
+</p>
+<p align='center'>
+  <img src='ForEach Activity/ForEach_CopyActivty_Sink_Dataset.png'>
+</p>
+<p align='center'>
+  <img src='ForEach Activity/ForEach_CopyActivity_Sink_FileExpression.png'>
+</p>
+<p align='center'>
+  <img src='ForEach Activity/ForEach_CopyActivity_Sink_FolderExpression.png'>
+</p>
