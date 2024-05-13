@@ -19,7 +19,7 @@ The pipeline mainly consists of four types of activities:
 <p align='center'>
   <img height =  250, src='LinkedServices.png'>
 </p>
-<p align = 'center'><b>LINKED SERCVICES</b></p>
+<p align = 'center'><i>LINKED SERCVICES</i></p>
     
 1. **LOOKUP ACTIVITY:**
 
