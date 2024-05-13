@@ -11,13 +11,13 @@
 1. **LOOKUP ACTIVITY:**
 
 <p align='center'>
-  <img height =  300, src='LookUp Activity/Lookup_Setiitngs.png'>
+  <img width =  300, src='LookUp Activity/Lookup_Setiitngs.png'>
 </p>
 <p align='center'>
-  <img height =  200, src='LookUp Activity/SQLQuery_SaleasLT_Tables.png'>
+  <img height =  100, src='LookUp Activity/SQLQuery_SaleasLT_Tables.png'>
 </p>
 <p align='center'>
-  <img height =  200, src='LookUp Activity/LookUp_Activity_Dataset.png'>
+  <img width =  200, src='LookUp Activity/LookUp_Activity_Dataset.png'>
 </p>
 
 2. **FOR-EACH ACTIVITY:**
