@@ -8,7 +8,7 @@
   <img src='LinkedServices.png'>
 </p>
     
-## LOOKUP ACTIVITY:
+- ## LOOKUP ACTIVITY:
 
 <p align='center'>
   <img src='LookUp Activity/Lookup_Setiitngs.png'>
@@ -20,7 +20,7 @@
   <img src='LookUp Activity/LookUp_Activity_Dataset.png'>
 </p>
 
-## FOR-EACH ACTIVITY:
+- ## FOR-EACH ACTIVITY:
 <p align='center'>
   <img src='ForEach Activity/ForEach_Settings.png'>
 </p>
@@ -28,7 +28,7 @@
   <img src='ForEach Activity/ForEach_Expression.png'>
 </p>
 
-### COPY ACTIVITY:
+-- ### COPY ACTIVITY:
 <p align='center'>
   <img src='ForEach Activity/ForEach_CopyActivity_Source.png'>
 </p>
