@@ -22,10 +22,10 @@
 
 ## FOR-EACH ACTIVITY:
 <p align='center'>
-  <img src='LookUp Activity/ForEach_Settings.png'>
+  <img src='ForEach Activity/LookUp Activity/ForEach_Settings.png'>
 </p>
 <p align='center'>
-  <img src='ForEach_Expression.png'>
+  <img src='ForEach Activity/ForEach_Expression.png'>
 </p>
 
 ### COPY ACTIVITY:
