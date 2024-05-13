@@ -1,5 +1,5 @@
 <pa align='center'>
-  <img src='ookUp Activity/Lookup_Setiitngs.png'>
+  <img src='LookUp Activity/Lookup_Setiitngs.png'>
 </p>
 <pa align='center'>
   <img src='SQLQuery_SaleasLT_Tables.png'>
