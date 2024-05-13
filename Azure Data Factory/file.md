@@ -18,9 +18,10 @@
 </p>
 
 ```sql 
-SELECT s.schema, t.table FROM sys.tables as t
+SELECT s.name as SchemaName, t.name TableName FROM sys.tables as t
 INNER JOIN sys.schemas as s
-WHERE s.schemaid = t.schemaid;
+ON s.schemaid = t.schemaid
+WHERE s.name = 'SalesLT';
 ```
 <p align='center'>
   <img height =  300, src='LookUp Activity/LookUp_Activity_Dataset.png'>
