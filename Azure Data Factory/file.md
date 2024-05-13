@@ -16,6 +16,7 @@ The pipeline mainly consists of four types of activities:
 </p>
 
 <p align = 'center'><i>Final Pipeline.</i></p>
+</br>
 
 <p align='center'>
   <img height =  250, src='LinkedServices.png'>
