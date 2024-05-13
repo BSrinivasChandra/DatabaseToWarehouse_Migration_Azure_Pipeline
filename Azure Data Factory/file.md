@@ -16,7 +16,7 @@
 <p align='center'>
   <img height =  150, src='LookUp Activity/SQLQuery_SaleasLT_Tables.png'>
 </p>
-```sql
+```
 SELECT * FROM tables;
 ```
 <p align='center'>
