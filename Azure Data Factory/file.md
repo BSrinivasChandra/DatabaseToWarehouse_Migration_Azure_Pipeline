@@ -47,9 +47,8 @@ WHERE s.name = 'SalesLT';
 </p>
 <p align='center'><i>LookUp Activity Source Dataset.</i></p></br>
 
-**2. FOR-EACH ACTIVITY:**  
-This activity is like a loop which iterates over the 'value' from the output of lookup activity.
-
+**2. FOR-EACH ACTIVITY:** This activity is like a loop which iterates over the 'value' from the output of lookup activity. As any loop conatins a statement to execute likewise this acitvity containes sub-activities within itself which are perfomed on each item over the iteration.  
+As we wish to copy the tables we use *Copy* activity in ForEach activity which copies each table in every iteration.
 </br><p align='center'>
   <img src='ForEach Activity/ForEach_Settings.png'>
 </p>
