@@ -40,6 +40,8 @@ INNER JOIN sys.schemas as s
 ON s.schemaid = t.schemaid
 WHERE s.name = 'SalesLT';
 ```
+<p align = 'center'><i>SQL Query</i></p>
+
 </br><p align='center'>
   <img height =  300, src='LookUp Activity/LookUp_Activity_Dataset.png'>
 </p>
