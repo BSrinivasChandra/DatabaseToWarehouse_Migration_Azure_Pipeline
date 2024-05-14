@@ -5,7 +5,7 @@ The main task of this pipeline is to extract all the tables with 'SalesLT' schem
 The pipeline mainly consists of four types of activities:
 1. **LookUp Activity** : _Lookup_ Activity can be used to dynamically determine which “Objects” to operate instead of hardcoding the “Object” name. Some “Object” examples are - *_Files_* and *_Tables_*. It returns a dictonary with keys 'count' and 'value'.
 
->Note : LookUp activity is mainly used when there are multiple files or tables to deal with in one go.
+>NOTE : LookUp activity is mainly used when there are multiple files or tables to deal with in one go.
 
 2. **ForEach Activity** : _ForEach_ activity is used to iterate over a collection and executes specified activities in a loop.
 3. **Copy Activity** : As the name suggests _Copy_ activity is used to “Copy” the Data from the data sources, located in “On-Premise” or “Cloud”. Once, the data is copied, it can be used in other Activities to further Transform and Analyze.
@@ -28,9 +28,9 @@ This acticivity retrives all the table names along with its schema name associat
 <p align='center'>
   <img height =  500, src='LookUp Activity/Lookup_Setiitngs.png'>
 </p>
-<p><i>LookUp Activity.</i></p>
+<p align='center'><i>LookUp Activity.</i></p></br>
 
-> SQL Query is used to return a result set containing TableName & SchemaName.
+>NOTE : SQL Query is used to return a result set containing TableName & SchemaName.
 ```sql 
 SELECT s.name as SchemaName, t.name TableName FROM sys.tables as t
 INNER JOIN sys.schemas as s
