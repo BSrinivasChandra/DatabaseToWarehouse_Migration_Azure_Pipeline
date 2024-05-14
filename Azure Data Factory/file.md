@@ -46,13 +46,17 @@ WHERE s.name = 'SalesLT';
 <p align='center'><i>LookUp Activity Source Dataset.</i></p></br>
 
 **2. FOR-EACH ACTIVITY:**  
-This activity is like a loop which iterates over the 'value' from the output of lookup activity
-<p align='center'>
+This activity is like a loop which iterates over the 'value' from the output of lookup activity.
+
+</br><p align='center'>
   <img src='ForEach Activity/ForEach_Settings.png'>
 </p>
-<p align='center'>
+<p><i>ForEach Activity.</i></p>
+
+</br><p align='center'>
   <img src='ForEach Activity/ForEach_Expression.png'>
 </p>
+<p><i>Expression of ForEach.</i></p>
 
 - **COPY ACTIVITY:**
 <p align='center'>
