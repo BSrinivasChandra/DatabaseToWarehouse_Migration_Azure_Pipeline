@@ -26,7 +26,7 @@ The pipeline mainly consists of four types of activities:
 ## 1. LookUp Activity:
 This acticivity retrives all the table names along with its schema name associated with 'SalesLT' schema from Adventure Words Db in sql server. A key-value pair dictionary is generated conatining 'count' & 'value' then, passed onto the further activity i.e.., ForEach.</br>
 
-> *_count_* --> Total No.of Items </br>*_value_* --> List of dictionaries which consists SchemaName & TableName.
+> *_count_* -> Total No.of Items </br>*_value_* -> List of dictionaries which consists SchemaName & TableName.
 
 </br><p align='center'>
   <img height =  500, src='LookUp Activity/Lookup_Setiitngs.png'>
