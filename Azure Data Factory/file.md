@@ -10,8 +10,8 @@ The pipeline mainly consists of four types of activities:
 2. **ForEach Activity** : _ForEach_ activity is used to iterate over a collection and executes specified activities in a loop.
 3. **Copy Activity** : As the name suggests _Copy_ activity is used to “Copy” the Data from the data sources, located in “On-Premise” or “Cloud”. Once, the data is copied, it can be used in other Activities to further Transform and Analyze.
 4. **Notebook Activity** : The Notebook activity in ADF pipeline allows you to run Notebook created in Azure Databricks.
-</br>
-<p align='center'>
+
+</br><p align='center'>
   <img height =  200, src='ADF_ETL_FinalPipleline.png'>
 </p>
 
