@@ -28,10 +28,9 @@ This acticivity retrives all the table names along with its schema name associat
 <p align='center'>
   <img height =  500, src='LookUp Activity/Lookup_Setiitngs.png'>
 </p>
-<p align='center'>
-  <img height =  150, src='LookUp Activity/SQLQuery_SaleasLT_Tables.png'>
-</p>
+<p><i>LookUp Activity.</i></p>
 
+> SQL Query is used to return a result set containing TableName & SchemaName.
 ```sql 
 SELECT s.name as SchemaName, t.name TableName FROM sys.tables as t
 INNER JOIN sys.schemas as s
