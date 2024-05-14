@@ -25,19 +25,19 @@ The pipeline mainly consists of four types of activities:
     
 **1. LOOKUP ACTIVITY:**
 This acticivity retrives all the table names along with its schema name associated with 'SalesLT' schema from Adventure Words Db in sql server. A key-value pair dictionary is generated and passed onto the further activity i.e.., ForEach.
-<p align='center'>
+</br><p align='center'>
   <img height =  500, src='LookUp Activity/Lookup_Setiitngs.png'>
 </p>
 <p align='center'><i>LookUp Activity.</i></p></br>
 
->NOTE : SQL Query is used to return a result set containing TableName & SchemaName.
+>NOTE : SQL Query is used to return a result set containing TableName & SchemaName.</br>
 ```sql 
 SELECT s.name as SchemaName, t.name TableName FROM sys.tables as t
 INNER JOIN sys.schemas as s
 ON s.schemaid = t.schemaid
 WHERE s.name = 'SalesLT';
 ```
-<p align='center'>
+</br><p align='center'>
   <img height =  300, src='LookUp Activity/LookUp_Activity_Dataset.png'>
 </p>
 <p align='center'><i>LookUp Activity Dataset.</i></p></br>
