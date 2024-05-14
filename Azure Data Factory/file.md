@@ -47,7 +47,7 @@ WHERE s.name = 'SalesLT';
 </p>
 <p align='center'><i>LookUp Activity Source Dataset.</i></p></br>
 
-**2. FOR-EACH ACTIVITY:** </br>
+## 2. ForEach Activity:
 This activity is like a loop which iterates over the 'value' from the output of lookup activity. As any loop conatins a statement to execute likewise this acitvity containes sub-activities within itself which are perfomed on each item over the iteration.  </br>
 As we wish to copy the tables we use *Copy* activity in ForEach activity which copies each table in every iteration.
 </br><p align='center'>
@@ -62,7 +62,7 @@ As the output from *_LookUp_* acitvity contains *count* & *value*, we only need 
 </p>
 <p align = 'center'><i>Expression of ForEach.</i></p>
 
-- **COPY ACTIVITY:**
+### Copy Activity:
 <p align='center'>
   <img src='ForEach Activity/ForEach_CopyActivity_Source.png'>
 </p>
@@ -85,12 +85,12 @@ As the output from *_LookUp_* acitvity contains *count* & *value*, we only need 
   <img src='ForEach Activity/ForEach_CopyActivity_Sink_FolderExpression.png'>
 </p>
 
-**3. NOTEBOOK ACTIVITY(LEVEL1):**
+## 3. NOTEBOOK ACTIVITY(LEVEL1)
 <p align='center'>
   <img src='Notebook Activity/BronzeToSilver_Level1_TrasformationNotebook.png'>
 </p>
 
-**4. NOTEBOOK ACTIVITY(LEVEL2):**
+## 4. NOTEBOOK ACTIVITY(LEVEL2):
 <p align='center'>
   <img src='Notebook Activity/SilverToGold_Level2_Trasnformation_Notebook.png'>
 </p>
