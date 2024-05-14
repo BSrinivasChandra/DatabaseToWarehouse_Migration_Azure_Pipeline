@@ -40,6 +40,7 @@ WHERE s.name = 'SalesLT';
 <p align='center'>
   <img height =  300, src='LookUp Activity/LookUp_Activity_Dataset.png'>
 </p>
+<p align='center'><i>LookUp Activity Dataset.</i></p></br>
 
 **2. FOR-EACH ACTIVITY:**
 <p align='center'>
