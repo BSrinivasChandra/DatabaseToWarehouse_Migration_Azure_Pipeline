@@ -89,6 +89,8 @@ To get *SchemaName* & *TableName* from *ForEach* activity for every iteration we
 </p>
 <p align='center'><i>Copy Activity Sink Dataset.</i></p>
 
+As there are multiple tables copied every time we don't went to manually specify the folder and file path to each table. Instead we can dynamically assign the folder and file path & name to each table.</br>
+For that initially two parameters are crated named *schemaname* & *tablename* in dataset properties. Then we use those two parameters to specify folder and file path for each table.
 
 <p align='center'>
   <img src='ForEach Activity/ForEach_CopyActivity_Sink_FileExpression.png'>
