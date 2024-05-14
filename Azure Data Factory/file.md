@@ -77,18 +77,30 @@ To get *SchemaName* & *TableName* from *ForEach* activity for every iteration we
 <p align='center'>
   <img src='ForEach Activity/ForEach_CopyActivity_Source_Dataset.png'>
 </p>
+<p align='center'><i>Copy Activity Source Dataset.</i></p>
+
 <p align='center'>
   <img src='ForEach Activity/ForEach_CopyActivty_Sink.png'>
 </p>
+<p align='center'><i>Copy Activity Sink.</i></p>
+
 <p align='center'>
   <img src='ForEach Activity/ForEach_CopyActivty_Sink_Dataset.png'>
 </p>
+<p align='center'><i>Copy Activity Sink Dataset.</i></p>
+
+
 <p align='center'>
   <img src='ForEach Activity/ForEach_CopyActivity_Sink_FileExpression.png'>
 </p>
+<p align='center'><i>Copy Activity Sink Folder Expression.</i></p>
+
+
 <p align='center'>
   <img src='ForEach Activity/ForEach_CopyActivity_Sink_FolderExpression.png'>
 </p>
+<p align='center'><i>Copy Activity Sink File Expression.</i></p>
+
 
 ## 3. NOTEBOOK ACTIVITY(LEVEL1)
 <p align='center'>
