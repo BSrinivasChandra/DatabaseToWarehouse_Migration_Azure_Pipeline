@@ -62,7 +62,7 @@ As the output from *_LookUp_* acitvity contains *count* & *value*, we only need 
 </p>
 <p align = 'center'><i>Expression of ForEach.</i></p>
 
-### Copy Activity:
+### Copy Activity (ForEach):
 <p align='center'>
   <img src='ForEach Activity/ForEach_CopyActivity_Source.png'>
 </p>
