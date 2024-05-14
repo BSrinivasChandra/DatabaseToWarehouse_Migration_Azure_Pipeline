@@ -51,12 +51,14 @@ This activity is like a loop which iterates over the 'value' from the output of 
 </br><p align='center'>
   <img src='ForEach Activity/ForEach_Settings.png'>
 </p>
-<p><i>ForEach Activity.</i></p>
+<p align = 'center'><i>ForEach Activity.</i></p>
+
+As the output from *_LookUp_* contains *count* & *value*, we only need *value* to iterate over the names of tha table. So, an expression in written which returns the *value* from the output of *_LookUp_* activity.
 
 </br><p align='center'>
   <img src='ForEach Activity/ForEach_Expression.png'>
 </p>
-<p><i>Expression of ForEach.</i></p>
+<p align = 'center'><i>Expression of ForEach.</i></p>
 
 - **COPY ACTIVITY:**
 <p align='center'>
