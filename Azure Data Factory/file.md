@@ -63,12 +63,19 @@ As the output from *_LookUp_* acitvity contains *count* & *value*, we only need 
 <p align = 'center'><i>Expression of ForEach.</i></p>
 
 ### Copy Activity (ForEach):
+This *Copy activity* copies each table for every time it iterates over the *ForEach* activity.
 <p align='center'>
   <img src='ForEach Activity/ForEach_CopyActivity_Source.png'>
 </p>
-<p align='center'>
+<P align='center'><i>Copy Activity(ForEach) Source</i></P>
+
+To get *SchemaName* & *TableName* from *ForEach* activity for every iteration we use the following expression.
+
+</br><p align='center'>
   <img src='ForEach Activity/ForEach_CopyActivity_Source_Expression.png'>
 </p>
+<p align='center'><i>Expression of Copy Activity (ForEach).</i></p>
+
 <p align='center'>
   <img src='ForEach Activity/ForEach_CopyActivity_Source_Dataset.png'>
 </p>
