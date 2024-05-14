@@ -79,21 +79,21 @@ To get *SchemaName* & *TableName* from *ForEach* activity for every iteration we
 </p>
 <p align='center'><i>Copy Activity Source Dataset.</i></p>
 
+As there are multiple tables that are being copied every time, we don't want to manually specify the folder and file path to each table. Instead we can dynamically assign the folder and file path & name for each table.</br>
+
 <p align='center'>
   <img src='ForEach Activity/ForEach_CopyActivty_Sink.png'>
 </p>
 <p align='center'><i>Copy Activity Sink.</i></p>
 
-As there are multiple tables that are being copied every time, we don't want to manually specify the folder and file path to each table. Instead we can dynamically assign the folder and file path & name for each table.</br>
+For that, Initially two parameters are created named *schemaname* & *tablename* in dataset properties whcih are assigned with values of SchemaName & TableName for each Item.  
+</br>For Example :
+If the Schema name is ***SalesLT*** and Table name is ***Address***, then Folder/File Path should be ***bronze/SalesLT/Address/Address.parquet***.
 
 <p align='center'>
   <img src='ForEach Activity/ForEach_CopyActivty_Sink_Dataset.png'>
 </p>
 <p align='center'><i>Copy Activity Sink Dataset.</i></p>
-
-For that, Initially two parameters are created named *schemaname* & *tablename* in dataset properties whcih are assigned with values of SchemaName & TableName for each Item.  
-</br>For Example :
-If the Schema name is ***SalesLT*** and Table name is ***Address***, then Folder/File Path should be ***bronze/SalesLT/Address/Address.parquet***.
 
 <p align='center'>
   <img src='ForEach Activity/ForEach_CopyActivity_Sink_FolderExpression.png'>
