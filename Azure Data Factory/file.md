@@ -53,7 +53,7 @@ This activity is like a loop which iterates over the 'value' from the output of 
 </p>
 <p align = 'center'><i>ForEach Activity.</i></p>
 
-As the output from *_LookUp_* contains *count* & *value*, we only need *value* to iterate over the names of tha table. So, an expression in written which returns the *value* from the output of *_LookUp_* activity.
+As the output from *_LookUp_* acitvity contains *count* & *value*, we only need *value* to iterate over the names of tha table. So, an expression in written which returns only *value* from the output of *_LookUp_* activity.
 
 </br><p align='center'>
   <img src='ForEach Activity/ForEach_Expression.png'>
