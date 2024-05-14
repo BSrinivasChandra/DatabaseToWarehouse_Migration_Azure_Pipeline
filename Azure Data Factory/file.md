@@ -24,7 +24,7 @@ The pipeline mainly consists of four types of activities:
 <p align = 'center'><i>Linked Services.</i></p></br>
     
 **1. LOOKUP ACTIVITY:**
-
+This acticivity retrives all the table names along with its schema name associated with 'SalesLT' schema from Adventure Words Db in sql server. A key-value pair dictionary is generated and passed onto the further activity i.e.., ForEach.
 <p align='center'>
   <img height =  500, src='LookUp Activity/Lookup_Setiitngs.png'>
 </p>
