@@ -24,7 +24,9 @@ The pipeline mainly consists of four types of activities:
 <p align = 'center'><i>Linked Services.</i></p></br>
     
 **1. LOOKUP ACTIVITY:**
-This acticivity retrives all the table names along with its schema name associated with 'SalesLT' schema from Adventure Words Db in sql server. A key-value pair dictionary is generated and passed onto the further activity i.e.., ForEach.
+This acticivity retrives all the table names along with its schema name associated with 'SalesLT' schema from Adventure Words Db in sql server. A key-value pair dictionary is generated conatining 'count' & 'value' then, passed onto the further activity i.e.., ForEach.
+> 'count' --> Total No.of Items
+  'value' --> List of dictionaries which consists SchemaName & TableName.
 </br><p align='center'>
   <img height =  500, src='LookUp Activity/Lookup_Setiitngs.png'>
 </p>
@@ -40,9 +42,10 @@ WHERE s.name = 'SalesLT';
 </br><p align='center'>
   <img height =  300, src='LookUp Activity/LookUp_Activity_Dataset.png'>
 </p>
-<p align='center'><i>LookUp Activity Dataset.</i></p></br>
+<p align='center'><i>LookUp Activity Source Dataset.</i></p></br>
 
-**2. FOR-EACH ACTIVITY:**
+**2. FOR-EACH ACTIVITY:**  
+This activity is like a loop which iterates over the 'value' from the output of lookup activity
 <p align='center'>
   <img src='ForEach Activity/ForEach_Settings.png'>
 </p>
