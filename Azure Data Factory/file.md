@@ -69,8 +69,7 @@ This *Copy activity* copies each table for every time it iterates over the *ForE
 <P align='center'><i>Copy Activity(ForEach) Source</i></P>
 
 To get *SchemaName* & *TableName* from *ForEach* activity for every iteration we use the following expression.
-
-</br><p align='center'>
+<p align='center'>
   <img src='ForEach Activity/ForEach_CopyActivity_Source_Expression.png'>
 </p>
 <p align='center'><i>Expression of Copy Activity (ForEach).</i></p>
