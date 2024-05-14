@@ -49,15 +49,14 @@ WHERE s.name = 'SalesLT';
 
 ## 2. ForEach Activity:
 This activity is like a loop which iterates over the 'value' from the output of lookup activity. As any loop conatins a statement to execute likewise this acitvity containes sub-activities within itself which are perfomed on each item over the iteration.  </br>
-As we wish to copy the tables we use *Copy* activity in ForEach activity which copies each table in every iteration.
+As we wish to copy the tables, we use *Copy* activity in ForEach activity which copies each table in every iteration.
 </br><p align='center'>
   <img src='ForEach Activity/ForEach_Settings.png'>
 </p>
 <p align = 'center'><i>ForEach Activity.</i></p>
 
 As the output from *_LookUp_* acitvity contains *count* & *value*, we only need *value* to iterate over the names of tha table. So, an expression in written which returns only *value* from the output of *_LookUp_* activity.
-
-</br><p align='center'>
+<p align='center'>
   <img src='ForEach Activity/ForEach_Expression.png'>
 </p>
 <p align = 'center'><i>Expression of ForEach.</i></p>
