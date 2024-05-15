@@ -5,7 +5,7 @@
 3. **[PROJECT COMPONENTS](#Project-Components)**
 4. **[PROJECT ARCHITECTURE](#Project-Architecture)**
 5. **[IN-DETAILED README FILES](#IN-DETAILED-README-FILES)**
-   - <a href="on-premise sql server/Readme.md">ADVENTUREWORKS_DB DATABASE IN ON-PREM SQL SERVER (README)</a>
+   - <a href="on-premise sql server/Readme.md">ADVENTUREWORKS_DB IN ON-PREM SQL SERVER (README)</a>
    - <a href="Azure Data Lake Gen2/ADLS-README.md">AZURE DATALAKE GEN2 (README)</a>
    - <a href="Azure Data Factory/ADF-README.md">AZURE DATA FACTORY (README)</a>
 ## AIM:
