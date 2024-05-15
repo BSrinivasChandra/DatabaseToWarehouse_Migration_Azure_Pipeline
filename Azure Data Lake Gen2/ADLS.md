@@ -1,4 +1,4 @@
-## ADLS Gen2
+## ADLSGen2
 <p align = 'center'>
 <img src='BSG_Containers_Creation.png'>
 </p>
