@@ -5,7 +5,7 @@
 3. **[PROJECT COMPONENTS](#Project-Components)**
 4. **[PROJECT ARCHITECTURE](#Project-Architecture)**
 5. **[IN-DETAILED README FILES](#IN-DETAILED-README-FILES)**
-   - <a href="Azure Data Lake Gen2/ADLS-README.md">AZURE DATALAKE GEN2 README.md</a>
+   - <a href="Azure Data Lake Gen2/ADLS-README.md">AZURE DATALAKE GEN2 (README)</a>
 ## Aim:
 The primary goal is to design and implement a scalable ETL pipeline that extracts data from an on-premise SQL Server database representing Adventure Works, transforms it into a suitable format for analysis, and loads it into Azure Synapse Analytics Warehouse for further processing and visualization.
 
