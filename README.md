@@ -1,4 +1,4 @@
-# Database_Migration: Azure_ETL_Pipeline
+# DATABASE TO WAREHOUSE MIGRATION : AZURE PIPELINE
 
 1. **[AIM](#Aim)**
 2. **[AZURE SERVICES](#Azure-Services-Used)**
