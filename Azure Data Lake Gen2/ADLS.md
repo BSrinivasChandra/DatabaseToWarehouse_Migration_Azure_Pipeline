@@ -1,4 +1,4 @@
-## ADLSGen2
+## AZURE DATALAKE GEN2 (ADLS)
 <p align = 'center'>
 <img src='BSG_Containers_Creation.png'>
 </p>
