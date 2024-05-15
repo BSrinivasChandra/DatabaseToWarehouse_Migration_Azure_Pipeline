@@ -102,7 +102,7 @@ The below expression specifies the folder path according to the schema and table
 </p>
 <p align='center'><i>Copy Activity Sink Folder Expression.</i></p>
 
-And lastly below expression specifies the file name of the table that is being stored and it follows the file name as ***TableName.parquet***.
+And lastly the below expression specifies the file name of the table that is being stored and it follows the file name as ***TableName.parquet***.
 <p align='center'>
   <img src='ForEach Activity/ForEach_CopyActivity_Sink_FileExpression.png'>
 </p>
@@ -110,11 +110,16 @@ And lastly below expression specifies the file name of the table that is being s
 
 
 ## 3. NOTEBOOK ACTIVITY(LEVEL1)
-<p align='center'>
+
+The Notebook activity in ADF pipeline allows you to run Notebook created in Azure Databricks.
+
+</br><p align='center'>
   <img src='Notebook Activity/BronzeToSilver_Level1_TrasformationNotebook.png'>
 </p>
+<p><i>Bronze To Silver Transfromation (Level 1).</i></p>
 
-## 4. NOTEBOOK ACTIVITY(LEVEL2):
 <p align='center'>
   <img src='Notebook Activity/SilverToGold_Level2_Trasnformation_Notebook.png'>
 </p>
+<p><i>Silver To Gold Transformation (Level 1).</i></p>
+
