@@ -63,4 +63,5 @@ The primary goal is to design and implement a scalable ETL pipeline that extract
 </p>
 <p align = 'center'>Resouce Group containing all the Resources.</p>
 
-
+[Azure DataLake Gen2](Azure-Data-Lake-Gen2/ADLS.md)
+[Azure Data Factory](Azure-Data-Factory/ADF.md)
