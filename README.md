@@ -65,6 +65,6 @@ The primary goal is to design and implement a scalable ETL pipeline that extract
 
 
 More Content:
-- [Azure DataLake Gen2](Azure Data Factory/ADF.md)
-- [Azure Data Factory](Azure Data Lake Gen2/ADLS.md)
+- [Azure DataLake Gen2](https://github.com/BSrinivasChandra/DatabaseToWarehouse_Migration_Azure_Pipeline/blob/b39c9c02226b834c5487572ddca18e94742caa1c/Azure%20Data%20Factory/ADF.md)
+- [Azure Data Factory](https://github.com/BSrinivasChandra/DatabaseToWarehouse_Migration_Azure_Pipeline/blob/2cf9fc7a84aaee7aa0c5de08c335e5a98d8f2431/Azure%20Data%20Lake%20Gen2/ADLS.md)
 
