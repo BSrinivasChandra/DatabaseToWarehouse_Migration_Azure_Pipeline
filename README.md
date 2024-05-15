@@ -65,6 +65,6 @@ The primary goal is to design and implement a scalable ETL pipeline that extract
 
 
 More Content:
-- [Azure DataLake Gen2](Azure-Data-Factory/ADF.md)
-- [Azure Data Factory](Azure-Data-Lake-Gen2/ADLS.md)
+- [Azure DataLake Gen2](Azure Data Factory/ADF.md)
+- [Azure Data Factory](Azure Data Lake Gen2/ADLS.md)
 
