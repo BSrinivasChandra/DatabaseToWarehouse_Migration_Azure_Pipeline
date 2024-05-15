@@ -1,9 +1,9 @@
 # Database_Migration: Azure_ETL_Pipeline
 
-1. **[Aim](#Aim)**
-2. **[Azure Services](#Azure-Services-Used)**
-3. **[Project Components](#Project-Components)**
-4. **[Project Architecture](#Project-Architecture)**
+1. **[AIM](#Aim)**
+2. **[AZURE SERVICES](#Azure-Services-Used)**
+3. **[PROJECT COMPONENTS](#Project-Components)**
+4. **[PROJECT ARCHITECTURE](#Project-Architecture)**
 5. **[IN-DETAILED README FILES](#IN-DETAILED-README-FILES)**
    - [Azure DataLake Gen2 (README.md)](https://github.com/BSrinivasChandra/DatabaseToWarehouse_Migration_Azure_Pipeline/blob/b39c9c02226b834c5487572ddca18e94742caa1c/Azure%20Data%20Factory/ADF.md)
    - [Azure Data Factory (README.md)](https://github.com/BSrinivasChandra/DatabaseToWarehouse_Migration_Azure_Pipeline/blob/2cf9fc7a84aaee7aa0c5de08c335e5a98d8f2431/Azure%20Data%20Lake%20Gen2/ADLS.md)
