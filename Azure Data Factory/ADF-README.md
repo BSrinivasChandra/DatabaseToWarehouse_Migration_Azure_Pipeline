@@ -24,6 +24,12 @@ The pipeline mainly consists of four types of activities:
   <img height =  250, src='LinkedServices.png'>
 </p>
 <p align = 'center'><i>Linked Services.</i></p></br>
+
+Since the data source of required database/tables is an on-premise sql server, ***Self Hosted Integration Runtime*** is utilized rather than Azure's **Auto Resolve Integration Runtime** which is used for cloud based data sources.
+<p align='center'>
+  <img height =  250, src='AZURE DATA FACTORY/SelfHostedIntergrationRuntime.png'>
+</p>
+<p align = 'center'><i>Self Hosted Integration Runtime.</i></p></br>
     
 ## 1. LookUp Activity:
 This acticivity retrives all the table names along with its schema name associated with 'SalesLT' schema from Adventure Words Db in sql server. A key-value pair dictionary is generated conatining 'count' & 'value' then, passed onto the further activity i.e.., ForEach.</br>
