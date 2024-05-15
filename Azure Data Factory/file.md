@@ -117,7 +117,7 @@ The Notebook activity in ADF pipeline allows you to run Notebook created in Azur
 
 The pipeline consists two Databricks notebooks for tranformation:
 - **Bronze To Silver (Level 1) :** In this notebook *raw* data from ***bronze*** container is transformed and strord onto the ***silver*** container. Transformations in this notebook include handling of *Null* values, *outliers*, etc.
-- **Silver To Gold (Level 2 ) :** After *Level 1* transfomation, this notebook starts executing where data from ***silver*** container is transformed ansd stroed onto ***gold*** conatiner. Transformation in this notebook include changing the *schema*, *Type Casting* of data & time features etc.
+- **Silver To Gold (Level 2 ) :** After the *Level 1* transfomation, this notebook starts executing where data from ***silver*** container is transformed and stored onto ***gold*** conatiner. Transformation in this notebook include changing the *schema*, *Type Casting* of data & time features etc.
 </br><p align='center'>
   <img src='Notebook Activity/BronzeToSilver_Level1_TrasformationNotebook.png'>
 </p>
