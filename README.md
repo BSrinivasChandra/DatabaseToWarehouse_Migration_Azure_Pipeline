@@ -7,17 +7,17 @@
 5. **[IN-DETAILED README FILES](#IN-DETAILED-README-FILES)**
    - <a href="Azure Data Lake Gen2/ADLS-README.md">AZURE DATALAKE GEN2 (README)</a>
    - <a href="Azure Data Factory/ADF-README.md">AZURE DATA FACTORY (README)</a>
-## Aim:
+## AIM:
 The primary goal is to design and implement a scalable ETL pipeline that extracts data from an on-premise SQL Server database representing Adventure Works, transforms it into a suitable format for analysis, and loads it into Azure Synapse Analytics Warehouse for further processing and visualization.
 
-## Azure Services Used:
+## AZURE SERVICES USED:
 1. Azure Data Lake Gen2:
 2. Azure Data Factory:
 3. Azure Databricks:
 4. Azure Synapse Analystics:
 5. Azure Key Vault:
 
-## Project Components:
+## PROJECT COMPNENTS:
 <p align='center'>
   <img src="images/etl-process-image.png">
 </p>
@@ -30,7 +30,7 @@ The primary goal is to design and implement a scalable ETL pipeline that extract
   Azure Data Lake Storage: Transformed data is loaded into Azure Data Lake Storage for secure and scalable storage.  
   Azure Synapse Data Lakehouse: Alternatively, the transformed data can be stored in Azure Synapse Data Lakehouse as *Views* to analyze and extract insights and generate reports, visualizations down the line.
 
-## Project Architecture:
+## PROJECT ARCHITECTURE:
 <p align='center'>
   <img src="images/Etl_Architecture.png">
 </p>
@@ -61,8 +61,9 @@ The primary goal is to design and implement a scalable ETL pipeline that extract
   - In this phase Transformed data from gold layer gets loaded onto Azure Syanpse Analytics Lakehouse as *Views* for further analysis. 
   - PowerBI a powerful visualization tool can be connected Azure Synapse Analytics data warehouse which was created earlier to directly query the data and to create responsive as well as interactive reports.
 
+## RESOURCE GROUP AND RESOURCES:
 <p align='center'>
-  <img src="ResourceGroup_WithResources.png">
+  <img src="images/ResourceGroup_WithResources.png">
 </p>
 <p align = 'center'>Resouce Group containing all the Resources.</p>
 
