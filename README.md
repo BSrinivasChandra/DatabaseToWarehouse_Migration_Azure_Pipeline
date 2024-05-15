@@ -18,7 +18,7 @@ The primary goal is to design and implement a scalable ETL pipeline that extract
 4. Azure Synapse Analystics:
 5. Azure Key Vault:
 
-## PROJECT COMPNENTS:
+## PROJECT COMPONENTS:
 <p align='center'>
   <img src="images/etl-process-image.png">
 </p>
