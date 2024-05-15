@@ -21,7 +21,7 @@ The pipeline mainly consists of four types of activities:
 </br>
 
 <p align='center'>
-  <img height =  250, src='LinkedServices.png'>
+  <img height =  350, src='LinkedServices.png'>
 </p>
 <p align = 'center'><i>Linked Services.</i></p></br>
 
