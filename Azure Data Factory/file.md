@@ -113,15 +113,18 @@ And lastly the below expression specifies the file name of the table that is bei
 
 ## 3. NOTEBOOK ACTIVITY(LEVEL1)
 
-The Notebook activity in ADF pipeline allows you to run Notebook created in Azure Databricks.
+The Notebook activity in ADF pipeline allows you to run Notebook created in Azure Databricks.  
 
+The pipeline consists two Databricks notebooks for tranformation:
+- **Bronze To Silver (Level 1) :** In this notebook *raw* data from *bronze* container is transformed and strord onto the *silver* container. Transformations in this notebook include handling of *Null* values, *outliers*, etc.
+- **Silver To Gold (Level 2 ) :** After *Level 1* transfomation, this notebook starts executing where data from *silver* container is transformed ansd stroed onto *gold* conatiner. Transformation in this notebook include changing the *schema*, *Type Casting* of data & time features etc.
 </br><p align='center'>
   <img src='Notebook Activity/BronzeToSilver_Level1_TrasformationNotebook.png'>
 </p>
-<p><i>Bronze To Silver Transfromation (Level 1).</i></p>
+<p align = 'center'><i>Bronze To Silver Transfromation (Level 1).</i></p>
 
 <p align='center'>
   <img src='Notebook Activity/SilverToGold_Level2_Trasnformation_Notebook.png'>
 </p>
-<p><i>Silver To Gold Transformation (Level 1).</i></p>
+<p align = 'center' ><i>Silver To Gold Transformation (Level 1).</i></p>
 
