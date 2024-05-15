@@ -67,7 +67,7 @@ The primary goal is to design and implement a scalable ETL pipeline that extract
 [Azure Data Factory](Azure-Data-Lake-Gen2/ADLS.md)
 
 <script>
-  import ADLS Gen2 from Azure-Data-Lake-Gen2/ADLS.md
+  import ADLSGen2 from Azure-Data-Lake-Gen2/ADLS.md
 </script>
 
-{{ ADLS Gen2 }}
+{{ ADLSGen2 }}
