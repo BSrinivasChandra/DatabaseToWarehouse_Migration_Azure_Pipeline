@@ -7,6 +7,7 @@
 5. **[IN-DETAILED README FILES](#IN-DETAILED-README-FILES)**
    - [Azure DataLake Gen2 (README.md)](https://github.com/BSrinivasChandra/DatabaseToWarehouse_Migration_Azure_Pipeline/blob/2cf9fc7a84aaee7aa0c5de08c335e5a98d8f2431/Azure%20Data%20Lake%20Gen2/ADLS.md)
    - [Azure Data Factory (README.md)](https://github.com/BSrinivasChandra/DatabaseToWarehouse_Migration_Azure_Pipeline/blob/b39c9c02226b834c5487572ddca18e94742caa1c/Azure%20Data%20Factory/ADF.md)
+   - [images](images/file.md)
 ## Aim:
 The primary goal is to design and implement a scalable ETL pipeline that extracts data from an on-premise SQL Server database representing Adventure Works, transforms it into a suitable format for analysis, and loads it into Azure Synapse Analytics Warehouse for further processing and visualization.
 
