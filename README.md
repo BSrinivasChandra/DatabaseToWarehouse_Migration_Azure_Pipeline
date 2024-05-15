@@ -67,6 +67,6 @@ The primary goal is to design and implement a scalable ETL pipeline that extract
 <p align = 'center'>Resouce Group containing all the Resources.</p>
 
 ## IN-DETAILED README FILES:
-The Project is demonstrated using individual README file of each service. You can find each In-Detailed README files below or in the respective folders in this repository. Please be aware that the below README files are organized according to the project flow.
+The Project is demonstrated using individual README file of each service. You can find each In-Detailed README files below or in the respective folders in this repository. Please be noted that the below README files are organized according to the project flow.
 - <a href="Azure Data Lake Gen2/ADLS-README.md">AZURE DATALAKE GEN2 (README)</a>
 - <a href="Azure Data Factory/ADF-README.md">AZURE DATA FACTORY (README)</a>
