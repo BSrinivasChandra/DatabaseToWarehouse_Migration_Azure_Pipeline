@@ -63,11 +63,8 @@ The primary goal is to design and implement a scalable ETL pipeline that extract
 </p>
 <p align = 'center'>Resouce Group containing all the Resources.</p>
 
-[Azure DataLake Gen2](Azure-Data-Factory/ADF.md)
-[Azure Data Factory](Azure-Data-Lake-Gen2/ADLS.md)
 
-<script>
-  import ADLSGen2 from Azure-Data-Lake-Gen2/ADLS.md
-</script>
+More Content:
+- [Azure DataLake Gen2](Azure-Data-Factory/ADF.md)
+- [Azure Data Factory](Azure-Data-Lake-Gen2/ADLS.md)
 
-@include:./Azure-Data-Lake-Gen2/ADLS.md
