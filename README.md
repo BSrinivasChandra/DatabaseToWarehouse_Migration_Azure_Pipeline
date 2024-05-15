@@ -70,4 +70,4 @@ The primary goal is to design and implement a scalable ETL pipeline that extract
   import ADLSGen2 from Azure-Data-Lake-Gen2/ADLS.md
 </script>
 
-{{ ADLSGen2 }}
+<!--@include:Azure-Data-Lake-Gen2/ADLS.md-->
