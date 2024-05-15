@@ -21,13 +21,13 @@ The pipeline mainly consists of four types of activities:
 </br>
 
 <p align='center'>
-  <img width =  350, src='LinkedServices.png'>
+  <img height =  250, src='LinkedServices.png'>
 </p>
 <p align = 'center'><i>Linked Services.</i></p></br>
 
 Since the data source of required database/tables is an on-premise sql server, ***Self Hosted Integration Runtime*** is utilized rather than Azure's ***Auto Resolve Integration Runtime*** which is used for cloud based data sources.
 <p align='center'>
-  <img height =  250, src='SelfHostedIntergrationRuntime.png'>
+  <img height =  350, src='SelfHostedIntergrationRuntime.png'>
 </p>
 <p align = 'center'><i>Self Hosted Integration Runtime.</i></p></br>
     
