@@ -102,7 +102,7 @@ The below expression specifies the folder path according to the schema and table
 </p>
 <p align='center'><i>Copy Activity Sink Folder Expression.</i></p>
 
-And lastly this expression specifies the file name of the table that is being stored and it follows file name as ***TableName.parquet***.
+And lastly below expression specifies the file name of the table that is being stored and it follows the file name as ***TableName.parquet***.
 <p align='center'>
   <img src='ForEach Activity/ForEach_CopyActivity_Sink_FileExpression.png'>
 </p>
