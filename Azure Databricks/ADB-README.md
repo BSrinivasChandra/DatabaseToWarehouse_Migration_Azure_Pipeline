@@ -5,7 +5,7 @@ In order to execute an piece of code, a computaion resource aka **compute** is r
 - Number of cores
 - Memory of compute
 
-> NOTE: Lesser the configurations, Cheaper the cost of the compute. 
+> NOTE: The fewer configurations, the cheaper the compute cost. 
 
 - <a href="StorageAccMount.ipynb">MOUNT STORAGE ACCOUNT</a>
 - <a href="Level 1 Transformation.ipynb">BRONZE TO SILVER (LEVEL 1)</a>
