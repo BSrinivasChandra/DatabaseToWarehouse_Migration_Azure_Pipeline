@@ -9,6 +9,8 @@ In order to execute an piece of code, a computaion resource aka **compute** is r
 
 Within this project, Databricks is utilized to execute transformation notebooks of Pyspark code that carry out the cleaning and purification of the data extracted from the SQL server and stored in ADLS.
 
+## NOTEBOOKS
+
 For any Databricks workspace to read/write data from an ADLS conatiner, the workspace has to be mounted to that particular container through a mount point. A mount point of databricks is used/refers to a directory instance which is used to access a corresponding container in ADLS.
 - <a href="StorageAccMount.ipynb">MOUNT STORAGE ACCOUNT</a>
 
