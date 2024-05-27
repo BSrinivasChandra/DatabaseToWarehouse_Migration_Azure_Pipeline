@@ -1,7 +1,7 @@
 # Azure Databricks
-Azure Databricks provides both computation and infrastruture to run ***spark*** code which is an open source distributed computation in=memory framework. None the less, SQL and python scripts can also be executed.  
-In order to execute an piece of code, a computaion resource aka compute is required, which is to be created manually.
-The compute can be configured based on the usage requirement. Configuration usually includes:
+Azure Databricks provides both computation and infrastruture to run **spark** code which is an open source distributed computation ***in-memory*** framework. None the less, SQL and python scripts can also be executed.  
+  
+In order to execute an piece of code, a computaion resource aka **compute** is required. It is created and configured manually based on the required usage. Configuration of a compute usually includes:
 - Number of cores
 - Memory of compute
 
