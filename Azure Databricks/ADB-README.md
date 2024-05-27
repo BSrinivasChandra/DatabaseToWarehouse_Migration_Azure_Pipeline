@@ -7,6 +7,7 @@ In order to execute an piece of code, a computaion resource aka **Compute Cluste
 
 > NOTE: The fewer configurations, the cheaper the compute cost. 
 
+</br>
 <p align='center'>
   <img src='Compute_Cluster.png'>
 </p>
