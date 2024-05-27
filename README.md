@@ -74,3 +74,4 @@ The Project is demonstrated using individual README file of each service. You ca
 - <a href="Azure Data Lake Gen2/ADLS-README.md">AZURE DATALAKE GEN2 (README)</a>
 - <a href="Azure Data Factory/ADF-README.md">AZURE DATA FACTORY (README)</a>
 - <a href="Azure Databricks/ADB-README.md">AZURE DATABRICKS (README)</a>
+- <a href="Azure Synapse Analytics/ASA-README.md">AZURE DATABRICKS (README)</a>
