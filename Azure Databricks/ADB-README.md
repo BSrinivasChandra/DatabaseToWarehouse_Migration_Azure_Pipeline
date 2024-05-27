@@ -1,11 +1,16 @@
 # Azure Databricks
 Azure Databricks provides both computation and infrastruture to run **spark** code which is an open source distributed computation ***in-memory*** framework. None the less, SQL and python scripts can also be executed.  
   
-In order to execute an piece of code, a computaion resource aka **compute cluster** is required. It is created and configured manually based on the required usage. Configuration of a compute cluster is defined by **Node Type** which usually includes:
+In order to execute an piece of code, a computaion resource aka **Compute Cluster** is required. It is created and configured manually based on the required usage. Configuration of a compute cluster is defined by **Node Type** which usually includes:
 - Number of **Cores**
 - **Memory** of compute
 
 > NOTE: The fewer configurations, the cheaper the compute cost. 
+
+<p align='center'>
+  <img src='Compute_Cluster.png'>
+</p>
+<p align='center'><i>Compute Cluster.</i></p>
 
 Within this project, Databricks is utilized to execute transformation notebooks of Pyspark code that carry out the cleaning and purification of the data extracted from the SQL server and stored in ADLS.
 
