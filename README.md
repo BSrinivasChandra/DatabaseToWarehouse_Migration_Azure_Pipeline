@@ -8,6 +8,8 @@
    - <a href="on-premise sql server/Readme.md">ADVENTUREWORKS DATABASE (ON-PREM SQL SERVER)</a>
    - <a href="Azure Data Lake Gen2/ADLS-README.md">AZURE DATALAKE GEN2 (README)</a>
    - <a href="Azure Data Factory/ADF-README.md">AZURE DATA FACTORY (README)</a>
+   - <a href="Azure Databricks/ADB-README.md">AZURE DATABRICKS (README)</a>
+   - <a href="Azure Synapse Analytics/ASA-README.md">AZURE SYNAPSE ANALYTICS (README)</a>
 ## AIM:
 The primary goal is to design and implement a scalable ETL pipeline that extracts data from an on-premise SQL Server database representing Adventure Works, transforms it into a suitable format for analysis, and loads it into Azure Synapse Analytics Warehouse for further processing and visualization.
 
