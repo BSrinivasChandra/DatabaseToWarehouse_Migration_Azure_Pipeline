@@ -2,4 +2,4 @@
 <p align = 'center'>
     <img src = 'Synapse FInal Pipeline.png'>
 </p>
-<p><i>Views Creation Pipeline</i></p>
+<p align = 'center'><i>Views Creation Pipeline</i></p>
