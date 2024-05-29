@@ -7,9 +7,9 @@ A SQL database named ***gold_db*** is created in *Data* tab of *Synapse Workspac
 Further the creation of the views, *SQL* queries can be executed on them to *analyze* the data. Additionaly to that, views can be loaded or queried directly through *PowerBI* to generate *Interactive Reports*.
 
 The pipeline manily include three types of Activities:
-- Get MetaData Activity
-- ForEach Activity
-    - Stored Procedure
+1. **Get MetaData Activity** : 
+2. **ForEach Activity** : 
+3. **Stored Procedure** : 
 
 <p align = 'center'>
     <img src = 'Synapse FInal Pipeline.png'>
