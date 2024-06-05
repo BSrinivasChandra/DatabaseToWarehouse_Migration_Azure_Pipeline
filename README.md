@@ -14,11 +14,11 @@
 The primary goal is to design and implement a scalable ETL pipeline that extracts data from an on-premise SQL Server database representing Adventure Works, transforms it into a suitable format for analysis, and loads it into Azure Synapse Analytics Warehouse for further processing and visualization.
 
 ## AZURE SERVICES USED:
-1. Azure Data Lake Gen2:
-2. Azure Data Factory:
-3. Azure Databricks:
-4. Azure Synapse Analystics:
-5. Azure Key Vault:
+1. ```Azure Data Lake Gen2```:
+2. ```Azure Data Factory```:
+3. ```Azure Databricks```:
+4. ```Azure Synapse Analystics```:
+5. ```Azure Key Vault```:
 
 ## PROJECT COMPONENTS:
 <p align='center'>
