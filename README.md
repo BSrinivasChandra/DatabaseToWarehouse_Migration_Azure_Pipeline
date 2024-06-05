@@ -22,7 +22,7 @@ The primary goal is to design and implement a scalable ETL pipeline that extract
 
 ## PROJECT COMPONENTS:
 <p align='center'>
-  <img src="images/etl-process-image.png">
+  <img src="images/etl-process-image.svg">
 </p>
 
 - **Data Extraction:**  
